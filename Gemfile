@@ -48,6 +48,7 @@ group :development, :test do
   gem 'rails-controller-testing' # If you are using Rails 5.x
   gem 'better_errors', '~> 2.5', '>= 2.5.1'
   gem 'binding_of_caller', '~> 0.8.0'
+  gem 'capybara', '~> 3.13', '>= 3.13.2'
 end
 
 group :development do

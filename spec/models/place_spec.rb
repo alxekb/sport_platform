@@ -9,6 +9,12 @@ RSpec.describe Place, type: :model do
     end
   end
 
+  describe "empty title" do
+    it "shouldn't save plcae without a title" do
+      place.title == nil
+      expect{ palce }.to be_valid
+    end
+  end
 end
 
 # t.string "title"

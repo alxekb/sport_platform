@@ -9,12 +9,9 @@ RSpec.describe Place, type: :model do
     end
   end
 
-  describe "empty title" do
-    it "shouldn't save plcae without a title" do
-      place.title == nil
-      expect{ palce }.to be_valid
-    end
-  end
+  it { should validate_presence_of(:title) }
+
+  it { should validate_presence_of(:description) }
 end
 
 # t.string "title"

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-# Specs in this file have access to a helper object that includes
+# FIXME Specs in this file have access to a helper object that includes
 # the PlaceHelper. For example:
 #
 # describe PlaceHelper do
@@ -11,5 +11,5 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe PlaceHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
+
 end

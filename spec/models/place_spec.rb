@@ -10,8 +10,9 @@ RSpec.describe Place, type: :model do
   end
 
   it { should validate_presence_of(:title) }
-
   it { should validate_presence_of(:description) }
+  # FIXME it { should have_many(:places_schedule)}
+
 end
 
 # t.string "title"
